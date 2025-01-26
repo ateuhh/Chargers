@@ -1,0 +1,35 @@
+[versions]
+adapterdelegates4KotlinDslViewbinding = "4.3.2"
+agp = "8.7.3"
+constraintlayout = "2.2.0"
+gson = "2.11.0"
+koinAndroid = "3.4.0"
+kotlin = "2.0.20"
+coreKtx = "1.15.0"
+lifecycleRuntimeKtx = "2.8.7"
+kotlinx-coroutines-android = "1.7.3"
+navigationFragment = "2.8.5"
+navigationUi = "2.8.5"
+recyclerview = "1.4.0"
+vbpd = "2.0.0"
+
+
+[libraries]
+adapterdelegates4-kotlin-dsl-viewbinding = { module = "com.hannesdorfmann:adapterdelegates4-kotlin-dsl-viewbinding", version.ref = "adapterdelegates4KotlinDslViewbinding" }
+androidx-constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-navigation-ui = { module = "androidx.navigation:navigation-ui", version.ref = "navigationUi" }
+androidx-recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerview" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+koin-android = { module = "io.insert-koin:koin-android", version.ref = "koinAndroid" }
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinx-coroutines-android" }
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinx-coroutines-android" }
+navigation-fragment = { module = "androidx.navigation:navigation-fragment", version.ref = "navigationFragment" }
+vbpd = { module = "dev.androidbroadcast.vbpd:vbpd", version.ref = "vbpd" }
+
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+

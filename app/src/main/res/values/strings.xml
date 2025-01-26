@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Charges</string>
+
+    <string name="sample_address">Малая Монетная ул., 2Г</string>
+    <string name="sample_name">Punkt E</string>
+
+    <string name="empty_city_error">Выберите город, чтобы посмотреть зарядки</string>
+    <string name="navigate_to_details_text">Посмотреть зарядки</string>
+    <string name="choose_city_title">Выберите город</string>
+    <string name="back_text">К списку городов</string>
+    <string name="loading_text">Подождите, идет загрузка...</string>
+</resources>

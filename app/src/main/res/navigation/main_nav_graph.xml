@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/citiesFragment">
+
+    <fragment
+        android:id="@+id/citiesFragment"
+        android:name="com.example.charges.presentation.cities.CitiesFragment"
+        android:label="fragment_cities"
+        tools:layout="@layout/fragment_cities" >
+        <action
+            android:id="@+id/action_citiesFragment_to_chargersFragment"
+            app:destination="@id/chargersFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/chargersFragment"
+        android:name="com.example.charges.presentation.chargers.ChargersFragment"
+        android:label="ChargersFragment" >
+        <argument
+            android:name="city"
+            app:argType="string" />
+    </fragment>
+</navigation>
